@@ -1,0 +1,69 @@
+/* PHONE VIEW */
+@media screen and (max-width: 555px) {
+    .navbar {
+        display: none;
+    }
+    .logo {
+        font-size: 1.8rem;
+    }
+
+    /* HOME SECTION */
+    .home .btn-container {
+        top: 2rem;
+        left: 50%;
+        transform: translate(-50%, -50%)
+    }
+
+    /* ABOUT SECTION */
+    .about {
+        top: 110px;
+    }
+
+    /* PHOTO SECTION */
+    .photos .grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* FOOTER SECTION */
+    footer {
+        font-size: 1.2rem;
+    }
+}
+
+/* TABLET VIEW */
+@media screen and (min-width: 768px) {
+    .hamburger-icon {
+        display: none;
+    }
+    header {
+        padding: 0 15px;
+    }
+
+    .navbar a {
+        padding: 0 15px;
+    }
+
+    /* HOME SECTION */
+    .home .left-col {
+        background-color: transparent;
+        position: relative;
+        top: 35rem;
+    }
+
+    /* PHOTO SECTION */
+    .photos .grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* LAPTOP VIEW */
+@media screen and (min-width: 992px) {
+    header {
+        padding: 2rem 9%;
+    }
+
+    /* PHOTO SECTION */
+    .photos .grid-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
